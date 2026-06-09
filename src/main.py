@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from news_fetcher import fetch_news
-from analyzer import analyze_articles
+from src.fetchers.news_fetcher import fetch_news
+from src.analysis.analyzer import analyze_articles
 
 app = FastAPI()
 

@@ -1,6 +1,6 @@
 import streamlit as st
-from news_fetcher import fetch_news
-from analyzer import analyze_articles
+from src.fetchers.news_fetcher import fetch_news
+from src.analysis.analyzer import analyze_articles
 
 st.set_page_config(page_title="Financial News Analyzer", page_icon="📈")
 
